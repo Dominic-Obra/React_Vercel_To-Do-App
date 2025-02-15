@@ -4,7 +4,7 @@ function Header() {
       <div className="container d-flex justify-content-center">
         <span className="navbar-brand mb-0 h1" style={{ color: '#5E1B89' }}>
           <img
-            src="../lexmeetLogo.png"  // Update this with your new logo filename
+            src="../public/lexmeetLogo.png"  // Update this with your new logo filename
             alt="Lexmeet Logo"
             width="40"
             height="40"             // Added height to maintain aspect ratio
