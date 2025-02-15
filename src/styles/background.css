@@ -1,0 +1,120 @@
+.app-background {
+    background-image: url('../background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+      rgba(244, 81, 44, 0.85), 
+      rgba(255, 127, 77, 0.85), 
+      rgba(94, 27, 137, 0.85), 
+      rgba(157, 113, 188, 0.85)
+    );
+    z-index: 0;
+  }
+  
+  .content-wrapper {
+    position: relative;
+    z-index: 1;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {
+    border-color: #5E1B89 !important;
+    border-width: 2px !important;
+  }
+  
+  .btn-primary {
+    background-color: #F4512C !important;
+    border-color: #5E1B89 !important;
+  }
+  
+  .btn-success {
+    background-color: #F4512C !important;
+    border-color: #5E1B89 !important;
+  }
+  
+  .btn-danger {
+    background-color: #5E1B89 !important;
+    border-color: #5E1B89 !important;
+  }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+    background-color: #5E1B89;
+    color: white;
+    padding: 1rem 0;
+  }
+
+  .form-check-input:checked {
+    background-color: #F4512C !important;
+    border-color: #F4512C !important;
+  }
+
+  .form-check-input:focus {
+    border-color: #F4512C !important;
+    box-shadow: 0 0 0 0.25rem rgba(244, 81, 44, 0.25) !important;
+  }
+
+  .card.shadow-lg {
+    border: none !important;
+  }
+
+  .todo-list .card {
+    border-color: #5E1B89 !important;
+    border-width: 2px !important;
+  }
+
+  .btn:disabled {
+    opacity: 0.6 !important;
+    cursor: not-allowed !important;
+  }
+
+  .gradient-spinner {
+    width: 5rem !important;
+    height: 5rem !important;
+    border-width: 0.4rem !important;
+    border-color: #F4512C transparent #5E1B89 transparent !important;
+    animation: spin 1.2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .loading-container {
+    background: linear-gradient(135deg, #F4512C, #5E1B89);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+

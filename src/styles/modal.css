@@ -1,0 +1,53 @@
+.custom-modal {
+  background: white !important;
+  color: #5E1B89;
+}
+
+.custom-modal .modal-content {
+  background: white;
+}
+
+.custom-modal .modal-header {
+  border-bottom: none;
+}
+
+.custom-modal .modal-title {
+  color: #5E1B89;
+  font-weight: bold;
+}
+
+.custom-modal .modal-footer {
+  border-top: none;
+}
+
+.custom-modal .btn-close {
+  filter: none;
+}
+
+.custom-modal .form-control {
+  background-color: white;
+  border: 1px solid #5E1B89;
+}
+
+.custom-modal .form-label {
+  color: #5E1B89;
+  font-weight: bold;
+}
+
+.custom-modal .btn-secondary {
+  background-color: #F4512C;
+  border: 1px solid #5E1B89;
+  color: white;
+}
+
+.custom-modal .btn-primary {
+  background-color: #5E1B89;
+  border: none;
+  color: white;
+}
+
+.custom-modal .btn-primary:hover,
+.custom-modal .btn-secondary:hover {
+  background-color: #F4512C;
+  border-color: #F4512C;
+}
